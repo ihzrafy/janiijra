@@ -23,8 +23,7 @@
                 61 => 'mp4', 62 => 'mp4', 63 => 'jpg', 64 => 'jpg', 65 => 'jpg', 66 => 'png', 67 => 'jpg', 68 => 'jpg', 69 => 'jpg', 70 => 'jpg',
                 71 => 'jpg', 72 => 'jpg', 73 => 'jpg', 74 => 'jpg', 75 => 'jpg', 76 => 'jpg', 77 => 'jpg', 78 => 'jpg', 79 => 'jpg', 80 => 'jpg',
                 81 => 'jpg', 82 => 'jpg', 83 => 'jpg', 84 => 'jpg', 85 => 'jpg', 86 => 'jpg', 87 => 'jpg', 88 => 'jpg', 89 => 'jpg', 90 => 'jpg',
-                91 => 'jpg', 92 => 'jpg', 93 => 'jpg', 94 => 'jpg', 95 => 'jpg', 96 => 'jpg', 97 => 'jpg', 98 => 'jpg', 99 => 'jpg', 100 => 'jpg',
-                101 => 'jpg', 102 => 'png', 103 => 'mov'
+                91 => 'jpg', 92 => 'jpg', 93 => 'jpg', 94 => 'jpg', 95 => 'jpg', 96 => 'jpg', 97 => 'jpg', 102 => 'png', 103 => 'mov'
             ];
         @endphp
         @foreach($photos as $i => $ext)
@@ -45,7 +44,7 @@
 
     <div class="card-cute p-6 text-center mb-8">
         <p class="text-sm text-text/80">
-            <strong>✨ Gallery berisi 103 foto & video kenangan kita!</strong><br>
+            <strong>✨ Gallery berisi 99 foto & video kenangan kita!</strong><br>
             📸 Foto (.jpg, .png) | 🎥 Video (.mp4, .mov)
         </p>
     </div>
@@ -77,7 +76,7 @@
 @section('scripts')
 <script>
     let currentImage = 1;
-    const totalImages = 103;
+    const totalImages = 99;
     const photos = {
         1: 'mp4', 2: 'jpg', 3: 'mp4', 4: 'jpg', 5: 'jpg', 6: 'jpg', 7: 'jpg', 8: 'jpg', 9: 'jpg', 10: 'jpg',
         11: 'jpg', 12: 'mp4', 13: 'mp4', 14: 'jpg', 15: 'jpg', 16: 'jpg', 17: 'jpg', 18: 'jpg', 19: 'jpg', 20: 'jpg',
@@ -88,8 +87,7 @@
         61: 'mp4', 62: 'mp4', 63: 'jpg', 64: 'jpg', 65: 'jpg', 66: 'png', 67: 'jpg', 68: 'jpg', 69: 'jpg', 70: 'jpg',
         71: 'jpg', 72: 'jpg', 73: 'jpg', 74: 'jpg', 75: 'jpg', 76: 'jpg', 77: 'jpg', 78: 'jpg', 79: 'jpg', 80: 'jpg',
         81: 'jpg', 82: 'jpg', 83: 'jpg', 84: 'jpg', 85: 'jpg', 86: 'jpg', 87: 'jpg', 88: 'jpg', 89: 'jpg', 90: 'jpg',
-        91: 'jpg', 92: 'jpg', 93: 'jpg', 94: 'jpg', 95: 'jpg', 96: 'jpg', 97: 'jpg', 98: 'jpg', 99: 'jpg', 100: 'jpg',
-        101: 'jpg', 102: 'png', 103: 'mov'
+        91: 'jpg', 92: 'jpg', 93: 'jpg', 94: 'jpg', 95: 'jpg', 96: 'jpg', 97: 'jpg', 102: 'png', 103: 'mov'
     };
 
     function openLightbox(imageNumber) {
