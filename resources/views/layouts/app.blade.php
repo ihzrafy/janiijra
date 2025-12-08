@@ -33,16 +33,18 @@
     <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
         @php
             $polaroidPhotos = [9, 5, 10, 15, 25, 74, 45, 55, 65, 75, 85];
+
             $positions = [
-                ['top-10 left-10 rotate-[-15deg]', 'top-20 left-20'],
-                ['top-32 right-10 rotate-[12deg]', 'top-40 right-20'],
-                ['bottom-20 left-16 rotate-[-8deg]', 'bottom-32 left-24'],
-                ['bottom-24 right-20 rotate-[15deg]', 'bottom-40 right-32'],
-                ['top-1/2 left-8 -translate-y-1/2 rotate-[-20deg]', 'top-1/2 left-16'],
-                ['top-1/3 right-12 rotate-[10deg]', 'top-1/3 right-20'],
-                ['bottom-1/3 left-12 rotate-[8deg]', 'bottom-1/3 left-20'],
+                ['top-4 left-4 rotate-[-15deg]', 'top-12 left-20'],
+                ['top-20 right-4 rotate-[12deg]', 'top-32 right-16'],
+                ['bottom-12 left-8 rotate-[-8deg]', 'bottom-24 left-20'],
+                ['bottom-16 right-8 rotate-[15deg]', 'bottom-32 right-24'],
+                ['top-1/2 left-4 -translate-y-1/2 rotate-[-20deg]', 'top-1/2 left-20'],
+                ['top-1/3 right-4 rotate-[10deg]', 'top-1/3 right-20'],
+                ['bottom-1/3 left-4 rotate-[8deg]', 'bottom-1/3 left-20'],
             ];
         @endphp
+
         @foreach($positions as $index => $position)
             @if($index < count($polaroidPhotos))
             <div class="absolute {{ $position[0] }} opacity-20 hover:opacity-40 transition-opacity duration-300 animate-float-slow hidden lg:block" style="animation-delay: {{ $index * 0.5 }}s">
