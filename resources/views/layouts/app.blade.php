@@ -34,13 +34,13 @@
         @php
             $polaroidPhotos = [9, 5, 10, 15, 25, 74, 45, 55, 65, 75, 85];
             $positions = [
-                ['top-20 left-20 rotate-[-15deg]', 'top-32 left-32'],
-                ['top-40 right-20 rotate-[12deg]', 'top-52 right-32'],
-                ['bottom-32 left-24 rotate-[-8deg]', 'bottom-44 left-36'],
-                ['bottom-36 right-28 rotate-[15deg]', 'bottom-48 right-40'],
-                ['top-1/2 left-16 -translate-y-1/2 rotate-[-20deg]', 'top-1/2 left-28'],
-                ['top-1/3 right-20 rotate-[10deg]', 'top-1/3 right-32'],
-                ['bottom-1/3 left-20 rotate-[8deg]', 'bottom-1/3 left-32'],
+                ['top-10 left-10 rotate-[-15deg]', 'top-20 left-20'],
+                ['top-32 right-10 rotate-[12deg]', 'top-40 right-20'],
+                ['bottom-20 left-16 rotate-[-8deg]', 'bottom-32 left-24'],
+                ['bottom-24 right-20 rotate-[15deg]', 'bottom-40 right-32'],
+                ['top-1/2 left-8 -translate-y-1/2 rotate-[-20deg]', 'top-1/2 left-16'],
+                ['top-1/3 right-12 rotate-[10deg]', 'top-1/3 right-20'],
+                ['bottom-1/3 left-12 rotate-[8deg]', 'bottom-1/3 left-20'],
             ];
         @endphp
         @foreach($positions as $index => $position)
