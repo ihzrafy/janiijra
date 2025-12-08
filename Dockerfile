@@ -19,11 +19,14 @@ WORKDIR /var/www
 # Copy application files
 COPY . .
 
-# Copy production env file
-RUN cp .env.production .env
+# Copy production env file if exists, otherwise use example
+RUN if [ -f .env.production ]; then cp .env.production .env; else cp .env.example .env; fi
 
 # Install PHP dependencies
 RUN composer install --optimize-autoloader --no-dev
+
+# Generate application key if not set
+RUN php artisan key:generate --force
 
 # Set permissions
 RUN chmod -R 777 storage bootstrap/cache
