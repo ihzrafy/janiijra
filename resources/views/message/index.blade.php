@@ -78,19 +78,204 @@
             And no matter where life takes us, my heart will always walk beside yours. 🌙
         </div>
 
-        <div class="message-line opacity-0 text-2xl md:text-3xl text-text text-center font-bold mt-10"
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
             style="animation: fadeIn 1s ease-in forwards; animation-delay: 13.5s;">
+            You are the reason I believe in soulmates. 💫
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 14.5s;">
+            Every time I look at you, I fall in love all over again. 💕
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 15.5s;">
+            You make ordinary moments feel extraordinary. ✨
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 16.5s;">
+            Your touch is my favorite feeling. 🤗
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 17.5s;">
+            I love how you understand me without words. 🗣️❤️
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 18.5s;">
+            You are my sunshine on cloudy days. ☁️☀️
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 19.5s;">
+            Your smile lights up my entire world. 😊
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 20.5s;">
+            I cherish every memory we create together. 📸
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 21.5s;">
+            You are the best part of my day, every day. 🌅
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 22.5s;">
+            I love how you make me laugh even when I don't want to. 😂
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 23.5s;">
+            Your kindness inspires me to be a better person. 🌟
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 24.5s;">
+            I feel safe and loved in your arms. 🛡️❤️
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 25.5s;">
+            You are my favorite hello and my hardest goodbye. 👋
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 26.5s;">
+            I love the way you say my name. 🗣️💖
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 27.5s;">
+            You make my heart skip a beat. 💓
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 28.5s;">
+            I am grateful for every moment we share. 🙏
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 29.5s;">
+            You are the love of my life. 💑
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 30.5s;">
+            Forever and always, you and me. ♾️
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 32s;">
+            You are my everything. 🌟
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 33.5s;">
+            I can't imagine my life without you. 💭
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 35s;">
+            You complete me. 🧩
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 36.5s;">
+            My love for you grows stronger every day. 📈❤️
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 38s;">
+            You are my dream come true. 💭✨
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 39.5s;">
+            I am so lucky to call you mine. 🍀
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 41s;">
+            You make me want to be the best version of myself. 🌟
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 42.5s;">
+            Your love is my greatest treasure. 💎
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 44s;">
+            I fall in love with you all over again every single day. 💕
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 45.5s;">
+            You are the most beautiful person I know, inside and out. 🌹
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 47s;">
+            I love the way you love me. 💖
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 48.5s;">
+            You are my forever. ♾️
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 50s;">
+            My heart beats for you. 💓
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 51.5s;">
+            You are the light of my life. 💡
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 53s;">
+            I am yours, completely and utterly. 💯
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 54.5s;">
+            You make me happier than I've ever been. 😊
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 56s;">
+            I love you more than words can express. 📝❤️
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 57.5s;">
+            You are my soulmate. 👫
+        </div>
+
+        <div class="message-line opacity-0 text-lg md:text-xl text-text/80 leading-relaxed"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 59s;">
+            Forever starts with you. ♾️💑
+        </div>
+
+        <div class="message-line opacity-0 text-2xl md:text-3xl text-text text-center font-bold mt-10"
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 60.5s;">
             You mean the world to me.<br> Always, and forever. 💛
         </div>
 
         <!-- BAGIAN PENUTUP (dipindahkan ke paling akhir seperti permintaanmu) -->
         <div class="message-line opacity-0 text-2xl md:text-3xl text-text text-center font-bold mt-10"
-            style="animation: fadeIn 1s ease-in forwards; animation-delay: 14.5s;">
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 62s;">
             I love you,<br> more than you know. 💛
         </div>
 
         <div class="message-line opacity-0 text-center mt-8"
-            style="animation: fadeIn 1s ease-in forwards; animation-delay: 15.5s;">
+            style="animation: fadeIn 1s ease-in forwards; animation-delay: 63.5s;">
             <div class="text-6xl mb-4">🌼 💛 🌸</div>
             <p class="text-lg text-text/80 italic">Thank you for being in my life.</p>
         </div>

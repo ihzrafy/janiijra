@@ -55,7 +55,7 @@
 @section('scripts')
 <script>
     const words = [
-        { word: 'BUBUP', hint: 'Kata yang sering Ijra panggil untuk Jani 💛' },
+        { word: 'BUBUB', hint: 'Kata yang sering Ijra panggil untuk Jani 💛' },
         { word: 'CINTA', hint: 'Perasaan yang Ijra punya untuk Jani ❤️' },
         { word: 'GEMASH', hint: 'Jani itu... 😍' },
         { word: 'CANTIK', hint: 'Jani itu selalu ... ✨' },
