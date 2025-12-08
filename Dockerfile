@@ -25,6 +25,9 @@ RUN if [ -f .env.production ]; then cp .env.production .env; else cp .env.exampl
 # Install PHP dependencies
 RUN composer install --optimize-autoloader --no-dev
 
+# Install Node dependencies and build assets
+RUN npm install && npm run build
+
 # Generate application key if not set
 RUN php artisan key:generate --force
 
