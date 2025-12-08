@@ -5,7 +5,7 @@
     <div class="text-center mb-12">
         <div class="text-6xl mb-4 animate-bounce-soft">📸</div>
         <h2 class="text-4xl font-bold text-text mb-4">
-            Our Moments
+            Gallery Janiijra
         </h2>
         <p class="text-text/70">Collection of precious memories</p>
     </div>
