@@ -49,7 +49,7 @@
 
 @section('scripts')
 <script>
-    const emojis = ['🌼', '🌸', '🌻', '🌺', '🌷', '🌹', '💐', '🏵️'];
+    const images = ['/images/photo27.jpg', '/images/photo9.jpg', '/images/photo17.jpg', '/images/photo40.jpg', '/images/photo55.jpg', '/images/photo69.jpg', '/images/photo74.jpg', '/images/photo87.jpg'];
     let cards = [];
     let flippedCards = [];
     let matchedPairs = 0;
@@ -57,8 +57,8 @@
     let canFlip = true;
 
     function initGame() {
-        // Buat pairs dari emojis
-        cards = [...emojis, ...emojis];
+        // Buat pairs dari images
+        cards = [...images, ...images];
         shuffleArray(cards);
         
         matchedPairs = 0;
@@ -92,8 +92,8 @@
                     <div class="card-front absolute w-full h-full flex items-center justify-center text-5xl bg-gradient-to-br from-yellow-soft to-yellow-warm rounded-2xl backface-hidden">
                         ❓
                     </div>
-                    <div class="card-back absolute w-full h-full flex items-center justify-center text-5xl bg-white rounded-xl backface-hidden" style="transform: rotateY(180deg);">
-                        ${emoji}
+                    <div class="card-back absolute w-full h-full flex items-center justify-center bg-white rounded-xl backface-hidden" style="transform: rotateY(180deg);">
+                        <img src="${emoji}" alt="card" class="w-full h-full object-cover rounded-xl">
                     </div>
                 </div>
             `;
@@ -139,7 +139,7 @@
                 flippedCards = [];
                 canFlip = true;
 
-                if (matchedPairs === emojis.length) {
+                if (matchedPairs === images.length) {
                     setTimeout(() => showWin(), 500);
                 }
             }, 600);

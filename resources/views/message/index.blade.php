@@ -153,4 +153,10 @@
     `;
     document.head.appendChild(style);
 </script>
+
+<!-- Background Music -->
+<audio autoplay loop style="display: none;">
+    <source src="/sound/The 1975 - About You (Official) - nabila.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
 @endsection
