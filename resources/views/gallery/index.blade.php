@@ -11,7 +11,7 @@
     </div>
 
     <!-- Gallery Grid -->
-    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-12">
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-items-center">
         @php
             $photos = [
                 1 => 'mp4', 2 => 'jpg', 3 => 'mp4', 4 => 'jpg', 5 => 'jpg', 6 => 'jpg', 7 => 'jpg', 8 => 'jpg', 9 => 'jpg', 10 => 'jpg',
@@ -27,17 +27,18 @@
             ];
         @endphp
         @foreach($photos as $i => $ext)
-        <div class="aspect-square bg-yellow-light/30 rounded-2xl overflow-hidden cursor-pointer hover:scale-105 transition-transform shadow-lg hover:shadow-xl relative" onclick="openLightbox({{ $i }})">
+        <div class="polaroid transform rotate-{{ rand(-3, 3) }} hover:rotate-0 transition-transform duration-300 cursor-pointer" onclick="openLightbox({{ $i }})">
             @if(in_array($ext, ['mp4', 'mov']))
-                <video class="w-full h-full object-cover" muted>
+                <video class="w-full h-48 object-cover rounded" muted>
                     <source src="/images/photo{{ $i }}.{{ $ext }}" type="video/{{ $ext }}">
                 </video>
-                <div class="absolute inset-0 flex items-center justify-center bg-black/20 pointer-events-none">
+                <div class="absolute inset-0 flex items-center justify-center bg-black/20 pointer-events-none rounded">
                     <div class="text-4xl text-white">▶</div>
                 </div>
             @else
-                <img src="/images/photo{{ $i }}.{{ $ext }}" alt="Photo {{ $i }}" class="w-full h-full object-cover">
+                <img src="/images/photo{{ $i }}.{{ $ext }}" alt="Photo {{ $i }}" class="w-full h-48 object-cover rounded">
             @endif
+            <p class="text-center text-sm text-text/60 mt-2">💛</p>
         </div>
         @endforeach
     </div>
@@ -74,6 +75,25 @@
 @endsection
 
 @section('scripts')
+<style>
+    .polaroid {
+        background: white;
+        padding: 10px 10px 30px 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        border-radius: 5px;
+        width: 200px;
+        margin: 10px;
+        position: relative;
+    }
+
+    .polaroid img, .polaroid video {
+        border-radius: 3px;
+    }
+
+    .polaroid:hover {
+        transform: scale(1.05);
+    }
+</style>
 <script>
     let currentImage = 1;
     const totalImages = 99;

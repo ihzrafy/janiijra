@@ -102,7 +102,7 @@
         <h3 class="text-2xl font-bold text-text text-center mb-8">Our Beautiful Memories 💕</h3>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-6 justify-items-center">
             @php
-                $photos = ['/images/photo27.jpg', '/images/photo9.jpg', '/images/photo17.jpg', '/images/photo40.jpg', '/images/photo55.jpg', '/images/photo69.jpg', '/images/photo74.jpg', '/images/photo87.jpg'];
+                $photos = ['/images/photo10.jpg', '/images/photo11.jpg', '/images/photo14.jpg', '/images/photo15.jpg', '/images/photo19.jpg', '/images/photo52.jpg', '/images/photo63.jpg', '/images/photo87.jpg'];
             @endphp
             @foreach($photos as $photo)
             <div class="polaroid transform rotate-{{ rand(-3, 3) }} hover:rotate-0 transition-transform duration-300">
