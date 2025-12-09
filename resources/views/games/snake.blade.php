@@ -154,7 +154,9 @@
 
     document.addEventListener('keydown', changeDirection);
 
-    startBtn.addEventListener('click', () => {
+    let gameInterval;
+
+    function startGame() {
         snake = [{x: 10, y: 10}];
         dx = 0;
         dy = 0;
@@ -163,8 +165,11 @@
         gameRunning = true;
         generateFood();
         drawGame();
-        setInterval(gameLoop, 100);
-    });
+        if (gameInterval) clearInterval(gameInterval);
+        gameInterval = setInterval(gameLoop, 150);
+    }
+
+    startBtn.addEventListener('click', startGame);
 
     // Initial draw
     drawGame();

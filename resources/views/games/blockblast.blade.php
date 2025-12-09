@@ -97,14 +97,13 @@
 
     function applyGravity() {
         for (let x = 0; x < 10; x++) {
-            let writePos = 14;
+            let emptySpaces = 0;
             for (let y = 14; y >= 0; y--) {
-                if (grid[x][y] !== -1) {
-                    grid[x][writePos] = grid[x][y];
-                    if (writePos !== y) {
-                        grid[x][y] = -1;
-                    }
-                    writePos--;
+                if (grid[x][y] === -1) {
+                    emptySpaces++;
+                } else if (emptySpaces > 0) {
+                    grid[x][y + emptySpaces] = grid[x][y];
+                    grid[x][y] = -1;
                 }
             }
         }
