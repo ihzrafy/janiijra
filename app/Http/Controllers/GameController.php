@@ -25,4 +25,19 @@ class GameController extends Controller
     {
         return view('games.memorycard');
     }
+
+    public function blockBlast()
+    {
+        return view('games.blockblast');
+    }
+
+    public function ticTacToe()
+    {
+        return view('games.tictactoe');
+    }
+
+    public function snake()
+    {
+        return view('games.snake');
+    }
 }
