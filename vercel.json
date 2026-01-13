@@ -1,10 +1,10 @@
 {
     "version": 2,
     "framework": null,
-    "outputDirectory": ".",
     "functions": {
         "api/index.php": {
-            "runtime": "vercel-php@0.7.1"
+            "runtime": "vercel-php@0.7.1",
+            "excludeFiles": "{public/images/**,public/sound/**,node_modules/**,tests/**}"
         }
     },
     "routes": [
